@@ -13,6 +13,7 @@ Now to run the code, write the following command:
 To run the three nodes you open another three command prompt windows and run the following commands in respected windows:
 
 *rosrun* *secondassign* *c_pub.py*
+
 *rosrun* *secondassign* *print.py*
 
 But for the third node you have to set the parameter */publish_speed* by the following command
