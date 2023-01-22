@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="publish_speed" value= "10" />
+    <include file="$(find assignment_2_2022)/launch/assignment1.launch" />
+    <node pkg="assignment_2_2022" type="c_pub.py" name="control_pub" output="screen" launch-prefix="xterm -e" />
+    <node pkg="assignment_2_2022" type="print.py" name="print" output="screen" launch-prefix="xterm -e" />
+    <node pkg="assignment_2_2022" type="distance.py" name="distance" output="screen" launch-prefix="xterm -e" />
+</launch>
