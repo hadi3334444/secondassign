@@ -1,8 +1,12 @@
 # The Robot is given a target position  
 
-To run the code and see the output, you have to create another package in the ros_ws/src folder by using the catkin_create_pkg command in ROS. Write the following code to create the package be careful as the name of the package also should be same.
+To run the code and see the output, you have to download the first package from the following link and also please read the **README.md** file
 
-*catkin_create_pkg* *secondassign* *rospy*
+*https://github.com/hadi3334444/assignment_2_2022*
+
+Now create another package in the ros_ws/src folder by using the catkin_create_pkg command in ROS. Write the following code to create the package.
+
+*catkin_create_pkg* *secondassign* *rospy* *assignment_2_2022*
 
 Then you have to clone these codes and copy them inside the package secondassign and go back to the folder ros_ws and run the command catkin_make to make it ready to run.
 
