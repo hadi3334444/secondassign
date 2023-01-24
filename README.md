@@ -48,6 +48,6 @@ Below is the flowchart that shows how the first node is running.
 
 ![Tux, the Linux mascot](/image/flowchart.png)
 
-To compile and run all the codes in one command then you can run the following command:
+To run all the nodes in one command then you can run the following command but If you want to run each node in a different window then you have to use launch-prefix="xterm -e" inside your launch file and put it in each node:
 
 *roslaunch* *secondassign* *2ndAssign.launch*
