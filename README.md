@@ -10,11 +10,19 @@ Now create another package in the ros_ws/src folder by using the catkin_create_p
 
 Then you have to clone these codes and copy them inside the package secondassign and go back to the folder ros_ws and run the command catkin_make to make it ready to run.
 
-Now to run the code, write the following command:
+Now to run the main program, the robot and the environment, write the following command:
 
 *roslaunch* *assignment_2_2022* *assignment1.launch*
 
-To run the three nodes you open another three command prompt windows and run the following commands in respected windows:
+To run the three nodes you open another three command prompt windows. First of all change the files into executable by this command:
+
+*chmod* *+x* *c_pub.py* 
+
+*chmod* *+x* *print.py* 
+
+*chmod* *+x* *distance.py* 
+
+Now run the following commands in respected windows:
 
 *rosrun* *secondassign* *c_pub.py*
 
