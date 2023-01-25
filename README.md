@@ -14,7 +14,7 @@ Now to run the main program, the robot and the environment, write the following 
 
 *roslaunch* *assignment_2_2022* *assignment1.launch*
 
-To run the three nodes you open another three command prompt windows. First of all change the files into executable by this command:
+To run the three nodes you open another three command prompt windows. First of all change the files into executable by this command but you have to be in respected folder for example here you should be in .../secondassign/scripts/:
 
 *chmod* *+x* *c_pub.py* 
 
